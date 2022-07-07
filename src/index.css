@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "VCR_OSD_MONO_1";
+  src: url("../public/fonts/VCR_OSD_MONO_1.001.ttf") format("truetype");
+}
+
+:root {
+  --primary: rgb(75, 26, 61);
+  --secondary: rgb(145, 25, 46);
+  --warning: rgb(206, 37, 40);
+  --info: rgb(216, 64, 42);
+  --success: rgb(226, 146, 55);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "VCR", sans-serif;
+  background-image: url("../public/images/static/woodPaneling.jpeg");
+}
+
+.outlined {
+  text-shadow: -1px -1px 0 var(--success), 1px -1px 0 var(--success),
+    -1px 1px 0 var(--success), 1px 1px 0 var(--success);
+}
+
+.cardPar {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+
+.cardPar:hover {
+  transform: scale(1.1);
+}
+
+.vhsTape {
+  opacity: 1;
+}
+
+.vhsTape:hover {
+  opacity: 0;
+}

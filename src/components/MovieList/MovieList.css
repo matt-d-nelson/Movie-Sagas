@@ -1,0 +1,4 @@
+.movies {
+  display: inline-block;
+  flex-wrap: wrap;
+}
